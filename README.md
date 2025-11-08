@@ -22,3 +22,13 @@
 <ul>
   <li>Expanding the vocabulary to 20,000+ entries</li>
 </ul>
+
+
+<h3> 💬 Feedback & Suggestions</h3>
+
+If you have ideas, corrections, or questions, feel free to:
+
+- Start a [Discussion](https://github.com/Dazy80/Anki-Decks-Community-Feedback-Contributions/discussions)
+- Or [Open an Issue](https://github.com/Dazy80/Anki-Decks-Community-Feedback-Contributions/issues)
+
+Your input helps improve these decks for everyone!
