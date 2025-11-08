@@ -1,32 +1,24 @@
-📚 Anki Decks – Community Feedback & Contributions
-Welcome to the official repository for my shared Anki decks!
+<h2>📚 Anki Decks – Community Feedback & Contributions</h2>
+<p>Welcome to the official repository for my shared Anki decks!</p>
 
-If you're using one of my decks and have found:
+<p>If you're using one of my decks and have found:</p>
+<ul>
+  <li>❗ Errors or typos</li>
+  <li>💡 Suggestions for improvements</li>
+  <li>🌍 Better translations or example sentences</li>
+  <li>🧩 Ideas for new features or card types</li>
+</ul>
+<p>…this is the place to share them!</p>
 
-❗ Errors or typos
+<h3>🤝 How to contribute</h3>
+<ul>
+  <li><strong>Open an issue</strong> to report bugs, mistakes, or suggestions</li>
+  <li><strong>Start a discussion</strong> if you want to propose bigger changes or ask questions</li>
+  <li><strong>Submit a pull request</strong> if you’ve made improvements you'd like to share</li>
+</ul>
 
-💡 Suggestions for improvements
-
-🌍 Better translations or example sentences
-
-🧩 Ideas for new features or card types
-
-…this is the place to share them!
-
-🤝 How to contribute
-Open an issue to report bugs, mistakes, or suggestions
-
-Start a discussion if you want to propose bigger changes or ask questions
-
-Submit a pull request if you’ve made improvements you'd like to share
-
-🛠️ Current focus
-I'm actively working on:
-
-Expanding the vocabulary to 20,000+ entries
-
-Improving translation accuracy (especially between English, German, and Spanish)
-
-Adding new fields like Spanish definitions and usage notes
-
-Thanks for helping make these decks better for everyone!
+<h3>🛠️ Current focus</h3>
+<p>I'm actively working on:</p>
+<ul>
+  <li>Expanding the vocabulary to 20,000+ entries</li>
+</ul>
