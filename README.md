@@ -18,11 +18,8 @@
 </ul>
 
 <h3>🛠️ Current focus</h3>
-<p>I'm actively working on:</p>
-<ul>
-  <li>Expanding the vocabulary to 20,000+ entries</li>
-</ul>
-
+<p>The 20,000‑word German frequency deck is now complete.  
+I’m now focusing on advanced C1–C2 preparation materials — including idiomatic expressions, collocations, academic vocabulary, and refined sentence‑based training.</p>
 
 <h3> 💬 Feedback & Suggestions</h3>
 
