@@ -19,8 +19,10 @@
 
 <h3>🛠️ Current focus</h3>
 <p>The 20,000‑word German frequency deck is now complete.  
-I’m now focusing on advanced C1–C2 preparation materials — including idiomatic expressions, collocations, academic vocabulary, and refined sentence‑based training.</p>
-
+I’m now focusing on advanced C1–C2 preparation materials — including idiomatic expressions, collocations, academic vocabulary, and refined sentence‑based training.</p><br><br>
+<ul>
+<li><strong>The whole deck</strong> can one download also in <a href="https://mega.nz/folder/RUwEmL5a#yLA4MyVAlWhspNQB1wx9WA">Megaupload</a>. There is in this file folder  the audio.zip for to import the audios in the folder collection.media and the deck in .apkg format for easily import in Android or Windows.</li>
+</ul><br><br>
 <h3> 💬 Feedback & Suggestions</h3>
 
 If you have ideas, corrections, or questions, feel free to:
