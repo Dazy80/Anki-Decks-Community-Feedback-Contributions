@@ -1,0 +1,78 @@
+name: Error in a card
+description: A wrong translation, article, word type, typo, picture or audio – in one or more notes.
+title: "[Error] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping to improve the deck! One report can list many notes.
+
+        **No pictures or no audio on any card?** They are not part of the AnkiWeb download – see "Media files" in the deck description on AnkiWeb.
+
+  - type: dropdown
+    id: deck
+    attributes:
+      label: Deck
+      options:
+        - 20,000 Frequent German Words (20.000 häufige Wörter)
+        - Another deck (please name it below)
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Which notes?
+      description: The number after **Freq.n:** on the card and the German word – one note per line.
+      placeholder: |
+        195 Wahr
+        32 ihr
+    validations:
+      required: true
+
+  - type: dropdown
+    id: fields
+    attributes:
+      label: What is wrong?
+      description: You can choose more than one.
+      multiple: true
+      options:
+        - German word (spelling, capital letter)
+        - Article or word type ("Type")
+        - English translation of the word
+        - Spanish translation of the word
+        - German example sentence
+        - English translation of the sentence
+        - Spanish translation of the sentence
+        - Meaning ("Bedeutung", English or Spanish)
+        - Pronunciation (IPA) or audio
+        - Picture
+        - Grammar info on the "Extra" card (verb forms, synonyms …)
+        - Card layout, "Eigener Satz", "ES" button or other features
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong – and what should it be?
+      description: If you know the correct text, please write it here.
+      placeholder: |
+        195 Wahr – it is an adjective, so it should be "wahr".
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Anki version and device (optional)
+      description: Only for problems with the card layout, audio, microphone or buttons.
+      placeholder: e.g. Anki 26.09 on Windows, or AnkiDroid 2.25 on Android
+
+  - type: markdown
+    attributes:
+      value: |
+        Want to correct it yourself? All notes are in CSV files in this repository – see [CONTRIBUTING.md](https://github.com/Dazy80/Anki-Decks-Community-Feedback-Contributions/blob/main/CONTRIBUTING.md).

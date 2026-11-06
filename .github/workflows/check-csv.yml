@@ -1,0 +1,38 @@
+name: Check CSV
+
+# Checks the CSV files of the decks: for every pull request (compared with the
+# branch it wants to change) and after every change on main (all rows).
+
+on:
+  pull_request:
+    paths:
+      - 'decks/**'
+      - 'tools/check_csv.py'
+  push:
+    branches: [main]
+    paths:
+      - 'decks/**'
+      - 'tools/check_csv.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 2
+
+      - name: Check the CSV files
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT" = "pull_request" ]; then
+            python3 tools/check_csv.py --base HEAD^1
+          else
+            python3 tools/check_csv.py
+          fi

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: No pictures or audio? Download the media files
+    url: https://mega.nz/folder/RUwEmL5a#yLA4MyVAlWhspNQB1wx9WA
+    about: Pictures and audio are not part of the AnkiWeb download. Copy the files into your collection.media folder (see "Media files" in the deck description on AnkiWeb).
+  - name: Questions and discussions
+    url: https://github.com/Dazy80/Anki-Decks-Community-Feedback-Contributions/discussions
+    about: Ask a question about the decks, or discuss a bigger idea first.
