@@ -1,0 +1,30 @@
+name: Idea or suggestion
+description: A new feature or card type, or a change that affects many notes.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: deck
+    attributes:
+      label: Deck
+      options:
+        - 20,000 Frequent German Words (20.000 häufige Wörter)
+        - Another deck (please name it below)
+        - All decks
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What should change, and why would it help learners?
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples (optional)
+      description: Notes (number and German word), screenshots or links.
